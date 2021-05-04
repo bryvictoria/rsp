@@ -7,22 +7,27 @@
  This simple webapp is created for Docuvett for my PHP Developer Test.
  
  FrameWork Used:
- -Laravel 8
- -VueJs 2
- -ElementUI 2.13
-  
- Instruction:
-    1. Clone or download main
-    2. Execute 'npm install' & 'composer update'. I didn't include the node_modules & vendors here
-    3. Update mysql host and credentials at .env 
-    4. Execute 'php artisan migrate' to create the properties table.
-    5. Execute 'php artisan db:seed --class=PropertySeeder' to populate the properties table with the provided data.
-    6. Run the app using 'php artisan serve', or deploy on a PHP server.
+ <ul>
+    <li>Laravel 8</li>
+    <li>VueJs 2</li>
+    <li>ElementUI 2.13</li>
+ </ul>
+ 
+ Instructions:
+ <ol>
+    <li> Clone or download main</li>
+    <li> Execute 'npm install' & 'composer update'. I didn't include the node_modules & vendors here</li>
+    <li> Update mysql host and credentials at .env </li>
+    <li> Execute 'php artisan migrate' to create the properties table.</li>
+    <li> Execute 'php artisan db:seed --class=PropertySeeder' to populate the properties table with the provided data.</li>
+    <li> Run the app using 'php artisan serve', or deploy on a PHP server.</li>
+</ol>
 
-
+ <h2>HighLights:</h2>
+ <hr />
+ <h3>Frontend </h3>
+ <ul>
+    <li> Price Range - </li>
+ </ul>
  
- 
- 
- HighLights:
- 
- Database
+ ![FrontendScreen](https://github.com/bryvictoria/real-estate-property/blob/main/public/img/frontend-screen.png?raw=true)
