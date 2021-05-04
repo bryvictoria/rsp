@@ -1,11 +1,6 @@
 # real-estate-property
  RealEstateProperty App
  
- 
-
- 
- This simple webapp is created for Docuvett for my PHP Developer Test.
- 
  FrameWork Used:
  <ul>
     <li>Laravel 8</li>
