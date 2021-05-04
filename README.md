@@ -31,13 +31,13 @@
         Heres how I usually structure my codes when using MVC framework:
         <ul>
             <li>
-                Controller - Handles the request and response only. Will only call the method in the service passing the parameters from the request. Then create the appropriate response. 
+                Controller - Handles the request and response only. Will only call the method(s) in the service passing the data from the request as parameter. Then create the appropriate response. 
             </li>
             <li>
-                Service - Handles the logic. Manipulates the data.
+                Service - Handles the logic. Process and manipulates the data. 
             </li>
             <li>
-                Repository - Handles the data only. I separate the codes for data storage and data retrieval so that my service is not attached to a specific resource library.  
+                Repository - Handles the retrieving ang storing data only. I separate the codes for querying and saving records so that codes in services will not be attached to a specific orm or any resource library.   
             </li>
         </ul>
     </li>
