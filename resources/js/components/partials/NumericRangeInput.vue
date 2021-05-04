@@ -32,9 +32,11 @@
                     </el-slider>
                 </div>
             </div>
+            <!--
             <div align="right">
                 <el-button type="text" @click="clearInputRange">Clear</el-button>
             </div>
+            -->
         </el-collapse-item>
     </el-collapse>
 </template>

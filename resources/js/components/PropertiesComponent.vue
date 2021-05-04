@@ -49,10 +49,9 @@
                     </el-col>
                 </el-row>
             </el-form>
-            <div class="bottom clearfix" align="right">
-
-                <el-button type="primary" icon="search" class="m-1 p-1" @click="clearFilter">Clear</el-button>
+            <div class="bottom clearfix" >
                 <el-button type="primary" icon="search" class="m-1 p-1" @click="searchProperties">Search</el-button>
+                <el-button type="primary" icon="search" class="m-1 p-1" @click="clearFilter">Clear</el-button>
             </div>
         </el-card>
         <div>
@@ -133,7 +132,6 @@
                 let filters = {};
 
                 for(let fieldname in this.filter){
-                    console.log(typeof this.filter[fieldname]);
                     if(["string","number"].includes(typeof this.filter[fieldname]) && this.filter[fieldname] != ''){
                         filters[fieldname] = this.filter[fieldname];
                     }else if ( fieldname.includes('_range')){
@@ -151,7 +149,11 @@
                         }
                     ).catch(
                         (error) => {
-                            console.log(error);
+                            this.properties = [];
+                            this.$notify.error({
+                            title: 'Error Retrieving Properties',
+                            message: error
+                            });
                         }
                     ).then(
                         () => {
