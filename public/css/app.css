@@ -1,0 +1,18 @@
+.search-filter-card{
+   margin-top:5px;
+}
+
+.search-filter-card .el-card__body{
+    padding:2px;
+ }
+ .search-filter-card .el-form-item{
+     margin:2px;
+ }
+
+ .numeric-input-range .el-collapse-item__content{
+    padding: 0px 10px;
+    background: #FCFCFC;
+ }
+ .numeric-input-range .el-collapse-item__header{
+     height:35px;
+ }
