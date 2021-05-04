@@ -25,4 +25,6 @@
  
  HighLights:
  
- Database
+ Frontend ScreenShot
+ 
+ ![FrontendScreen](https://github.com/bryvictoria/real-estate-property/blob/main/public/img/frontend-screen.png?raw=true)
