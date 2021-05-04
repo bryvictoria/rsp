@@ -28,7 +28,7 @@
     <li> 
         Although the requirement is a simple api that returns filtered data, I still structured my codes to be flexible enough to support other requirements later on.
         <br />
-        Heres how I usually structure my codes when using MCV framework:
+        Heres how I usually structure my codes when using MVC framework:
         <ul>
             <li>
                 Controller - Handles the request and response only. Will only call the method in the service passing the parameters from the request. Then create the appropriate response. 
