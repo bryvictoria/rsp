@@ -34,7 +34,7 @@
                 Controller - Handles the request and response only. Will only call the method in the service passing the parameters from the request. Then create the appropriate response. 
             </li>
             <li>
-                Service - Handles the logic. 
+                Service - Handles the logic. Manipulates the data.
             </li>
             <li>
                 Repository - Handles the data only. I separate the codes for data storage and data retrieval so that my service is not attached to a specific resource library.  
